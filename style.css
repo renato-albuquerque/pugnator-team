@@ -26,4 +26,52 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Ubuntu', sans-serif;
+    color: var(--blue-color);
+}
+
+/* mobile s, 320px */
+
+/* header */
+
+.header {
+    width: 30rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid red; /* TEST */
+}
+
+.textLogo {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: var(--blue-color);
+}
+
+.navigation-2 {
+    display: flex;
+    gap: 2rem;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    color: var(--blue-color);
+}
+
+.fa-share-nodes {
+    color: #e2c42e;
+}
+
+
+
+
+
+.mobileMenuBarsHide {
+    display: none;
+}
+
+.mobileMenuLanguageHide {
+    display: none;
 }
