@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
 
     display: flex;
@@ -50,7 +50,8 @@ body {
 
 .textLogo {
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2rem;
+    font-family: var(--orbitron);
     color: var(--white-color);
 }
 
@@ -96,7 +97,7 @@ body {
 /* main */
 
 .imgLogo {
-    width: 30rem;
+    width: 29rem;
     display: block;
     margin: 0 auto;
     margin-top: 3rem;
@@ -106,7 +107,7 @@ body {
 /* about */
 
 .about {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -133,7 +134,7 @@ body {
 /* members */
 
 .members {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -150,7 +151,7 @@ body {
 /* media */
 
 .media {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -167,7 +168,7 @@ body {
 /* partners */
 
 .partners {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -184,7 +185,7 @@ body {
 /* services */
 
 .services {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -198,10 +199,27 @@ body {
     margin-bottom: 2rem;
 }
 
-/* services */
+.fa-users-gear {
+    color: var(--yellow-color);
+    font-size: 1.5rem;
+}
+
+.textServices {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    
+    font-size: 2rem;
+    text-align: left;
+    line-height: 2.8rem;
+
+    margin-bottom: 2rem;
+}
+
+/* contacts */
 
 .contacts {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -222,7 +240,7 @@ body {
 }
 
 .footer {
-    width: 30rem;
+    width: 29rem;
     margin: 0 auto;
     padding: 2rem 0;
     line-height: 2rem;
