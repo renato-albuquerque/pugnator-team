@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
 
     display: flex;
@@ -94,7 +94,13 @@ body {
     display: none;
 }
 
-/* main */
+/* home */
+
+.home {
+    width: 28rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
 
 .imgLogo {
     width: 29rem;
@@ -104,10 +110,27 @@ body {
     margin-bottom: 3rem;
 }
 
+.iconsHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.iconsHome .fa-whatsapp, .iconsHome .fa-envelope, .iconsHome .fa-instagram, .iconsHome .fa-youtube, .iconsHome .fa-facebook {
+    font-size: 4rem;
+    color: var(--blue-color);
+}
+
+.iconsHome .fa-whatsapp:hover, .iconsHome .fa-envelope:hover, .iconsHome .fa-instagram:hover, .iconsHome .fa-youtube:hover, .iconsHome .fa-facebook:hover {
+    color: var(--yellow-color);
+    transition: all .3s;
+}
+
 /* about */
 
 .about {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -134,7 +157,7 @@ body {
 /* members */
 
 .members {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -151,7 +174,7 @@ body {
 /* media */
 
 .media {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -168,7 +191,7 @@ body {
 /* partners */
 
 .partners {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -185,7 +208,7 @@ body {
 /* services */
 
 .services {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -219,7 +242,7 @@ body {
 /* contacts */
 
 .contacts {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -246,13 +269,10 @@ body {
     margin-bottom: 2rem;
 }
 
-.fa-square-whatsapp, .fa-envelope, .fa-square-instagram, .fa-square-facebook, .fa-youtube {
+.fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
     color: var(--blue-color);
-    font-size: 2.5rem;
-    
+    font-size: 3rem;  
 }
-
-
 
 /* footer */
 
@@ -261,7 +281,7 @@ body {
 }
 
 .footer {
-    width: 29rem;
+    width: 28rem;
     margin: 0 auto;
     padding: 2rem 0;
     line-height: 2rem;
