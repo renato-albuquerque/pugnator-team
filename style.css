@@ -45,7 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .textLogo {
@@ -280,10 +280,28 @@ body {
     background-color: var(--blue-color);
 }
 
-.footer {
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}  
+
+.footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook {
+    font-size: 1.8rem;
+    color: var(--yellow-color);
+}
+
+.footer-1 .fa-whatsapp:hover, .footer-1 .fa-envelope:hover, .footer-1 .fa-instagram:hover, .footer-1 .fa-youtube:hover, .footer-1 .fa-facebook:hover {
+    color: var(--white-color);
+    transition: all .3s;
+}
+
+.footer-2 {
     width: 28rem;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
     line-height: 2rem;
 }
 
