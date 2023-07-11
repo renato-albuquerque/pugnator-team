@@ -262,6 +262,7 @@ body {
     gap: 1.5rem;
     
     font-size: 2rem;
+    font-weight: bold;
     text-align: left;
     line-height: 2.8rem;
     color: var(--blue-color);
@@ -269,8 +270,18 @@ body {
     margin-bottom: 2rem;
 }
 
+.textContacts:hover {
+    color: var(--yellow-color);
+    transition: all .3s;
+}
+
 .fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
     color: var(--blue-color);
+    font-size: 3rem;  
+}
+
+.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-youtube:hover {
+    color: var(--yellow-color);
     font-size: 3rem;  
 }
 
