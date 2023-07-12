@@ -18,6 +18,7 @@
 
     --ubuntu: 'Ubuntu', sans-serif;
     --orbitron: 'Orbitron', sans-serif;
+    --rock-salt: 'Rock Salt', cursive;
 }
 
 html {
@@ -125,6 +126,18 @@ body {
 .iconsHome .fa-whatsapp:hover, .iconsHome .fa-envelope:hover, .iconsHome .fa-instagram:hover, .iconsHome .fa-youtube:hover, .iconsHome .fa-facebook:hover {
     color: var(--yellow-color);
     transition: all .3s;
+}
+
+.goPugnator {
+    margin-top: 3rem;
+    font-family: var(--rock-salt);
+    font-size: 3rem;
+    color: var(--yellow-color);
+}
+
+.goPugnator span {
+    color: var(--blue-color);
+    font-size: 3rem;
 }
 
 /* about */
