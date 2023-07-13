@@ -201,6 +201,44 @@ body {
     margin-bottom: 2rem;
 }
 
+.wrapAllArticle {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.wrapEachArticle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imageMedia {
+    width: 28rem;
+}
+
+.titleImageMedia {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.readWatchFullArticle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.readWatchFullArticle-a {
+    color: var(--blue-color);
+}
+
 /* services */
 
 .services {
