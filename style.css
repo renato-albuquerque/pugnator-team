@@ -252,6 +252,16 @@ body {
     margin-bottom: 2rem;
 }
 
+.textServices-a {
+    color: var(--blue-color);
+}
+
+.textServices-a strong:hover {
+    color: var(--yellow-color);
+    text-decoration: underline;
+    transition: all .3s;
+}
+
 /* contacts */
 
 .contacts {
