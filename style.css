@@ -201,23 +201,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* partners */
-
-.partners {
-    width: 28rem;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-}
-
-.titlePartners {
-    font-size: 2.5rem;
-    font-family: var(--orbitron);
-    font-weight: bold;
-    color: var(--yellow-color);
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
 /* services */
 
 .services {
@@ -260,6 +243,35 @@ body {
     color: var(--yellow-color);
     text-decoration: underline;
     transition: all .3s;
+}
+
+/* partners */
+
+.partners {
+    width: 28rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.titlePartners {
+    font-size: 2.5rem;
+    font-family: var(--orbitron);
+    font-weight: bold;
+    color: var(--yellow-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.wrapLogoPartners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.logoPartners {
+    width: 10rem;
 }
 
 /* contacts */
