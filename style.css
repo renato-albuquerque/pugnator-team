@@ -140,6 +140,10 @@ body {
     font-size: 3rem;
 }
 
+.imgHome {
+    display: none;
+}
+
 /* about */
 
 .about {
