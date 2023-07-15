@@ -132,6 +132,7 @@ body {
     margin-top: 3rem;
     font-family: var(--rock-salt);
     font-size: 3rem;
+    text-align: center;
     color: var(--yellow-color);
 }
 
@@ -160,7 +161,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .textAbout-1, .textAbout-2 {
@@ -189,7 +190,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .subtitleMembers {
@@ -213,6 +214,7 @@ body {
 
 .imageMembersPerArea {
     width: 30rem;
+    display: block;
     margin: 0 auto;
     margin-bottom: 4rem;
 }
@@ -226,7 +228,7 @@ body {
 
 .imageEachMember {
     border-radius: 50%;
-    width: 40%;
+    width: 10rem;
     margin-bottom: 1rem;
 }
 
@@ -268,7 +270,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .wrapAllArticle {
@@ -285,6 +287,9 @@ body {
 
 .imageMedia {
     width: 28rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
 }
 
 .titleImageMedia {
@@ -325,7 +330,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .fa-users-gear {
@@ -371,7 +376,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .wrapLogoPartners {
@@ -402,7 +407,7 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 2px var(--blue-color), 0 0 1em var(--blue-color), 0 0 0.2em var(--blue-color);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .textContacts {

@@ -1,0 +1,41 @@
+:root {
+    font-size: 62.5%;
+
+    --blue-color: #1a3564;
+    --yellow-color: #e2c42e;
+    --white-color: #ffffff;
+
+    --ubuntu: 'Ubuntu', sans-serif;
+    --orbitron: 'Orbitron', sans-serif;
+    --rock-salt: 'Rock Salt', cursive;
+}
+
+/* mobile m, 375px */
+
+@media (min-width: 375px) {
+    .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
+        width: 33.5rem;
+    }
+}
+
+@media (min-width: 425px) {
+    .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
+        width: 38.5rem;
+    }
+
+    /* members */
+
+    .imageMembersPerArea {
+        width: 35rem;
+    }
+    
+    .imageEachMember {
+        width: 12rem;
+    }
+
+    /* media */
+
+    .imageMedia {
+        width: 32rem;
+    }
+}
