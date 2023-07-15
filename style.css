@@ -188,6 +188,48 @@ body {
     margin-bottom: 2rem;
 }
 
+
+
+.imageMembersPerArea {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.wrapMembers-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageEachMember {
+    border-radius: 50%;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.nameMember {
+    color: var(--blue-color);
+    font-size: 2rem;
+    font-family: var(--orbitron);
+}
+
+.jobFunctionMember {
+    color: var(--yellow-color);
+    font-size: 1.5rem;
+    font-family: var(--orbitron);
+    margin-bottom: 1rem;
+}
+
+.textEachMember {
+    color: var(--blue-color);
+    font-size: 2rem;
+    font-family: var(--ubuntu);
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+
 /* media */
 
 .media {
