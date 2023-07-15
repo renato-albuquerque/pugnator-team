@@ -188,7 +188,24 @@ body {
     margin-bottom: 2rem;
 }
 
+.subtitleMembers {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.wrapPugnatorAreas {
+    margin-bottom: 4rem;
+}
+
+.pugnatorAreas {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--orbitron);
+    text-align: center;
+    line-height: 3.8rem;
+}
 
 .imageMembersPerArea {
     width: 30rem;
@@ -228,6 +245,7 @@ body {
     font-family: var(--ubuntu);
     text-align: justify;
     margin-bottom: 4rem;
+    line-height: 2.8rem;
 }
 
 /* media */
@@ -267,11 +285,11 @@ body {
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
+    line-height: 2.8rem;
 }
 
 .readWatchFullArticle {
     font-size: 1.8rem;
-    font-weight: bold;
     text-align: center;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -381,7 +399,6 @@ body {
     gap: 1.5rem;
     
     font-size: 2rem;
-    font-weight: bold;
     text-align: left;
     line-height: 2.8rem;
     color: var(--blue-color);
