@@ -49,6 +49,21 @@
         width: 66.8rem;
     }
 
+    /* header */
+
+    .textLogo {
+        font-size: 2.5rem;
+        
+    }
+    
+    .navigation-2 {
+        gap: 5rem;
+    }
+    
+    .fa-solid {
+        font-size: 2.5rem;
+    }
+
     /* members */
 
     .imageMembersPerArea {
@@ -59,7 +74,7 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        gap: 4rem;
+        gap: 6rem;
         flex-wrap: wrap;
     }
 
