@@ -67,7 +67,7 @@
     /* members */
 
     .imageMembersPerArea {
-        width: 45rem;
+        width: 50rem;
     }
 
     .wrapMembersForTabletLaptop {
@@ -80,5 +80,16 @@
 
     .wrapMembers-2 {
         width: 28rem;
+    }
+
+    /* media */
+
+    .imageMedia {
+        width: 50rem;
+    }
+    
+    .titleImageMedia {
+        width: 50rem;
+        margin: 0 auto;
     }
 }
