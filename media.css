@@ -18,6 +18,8 @@
     }
 }
 
+/* mobile l, 425px */
+
 @media (min-width: 425px) {
     .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
         width: 38.5rem;
@@ -37,5 +39,31 @@
 
     .imageMedia {
         width: 32rem;
+    }
+}
+
+/* tablet, 768px */
+
+@media (min-width: 768px) {
+    .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
+        width: 66.8rem;
+    }
+
+    /* members */
+
+    .imageMembersPerArea {
+        width: 45rem;
+    }
+
+    .wrapMembersForTabletLaptop {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+
+    .wrapMembers-2 {
+        width: 28rem;
     }
 }
