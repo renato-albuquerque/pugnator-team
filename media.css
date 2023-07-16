@@ -92,4 +92,27 @@
         width: 50rem;
         margin: 0 auto;
     }
+
+    /* services */
+
+    .textServices {
+        font-size: 2.4rem; 
+    }
+
+    /* partners */
+
+    .logoPartners {
+        width: 10rem;
+    }
+
+    /* contacts */
+
+    .textContacts {
+        font-size: 2.4rem;
+        
+    }
+    
+    .fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
+        font-size: 3.4rem;  
+    }
 }
