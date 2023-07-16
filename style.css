@@ -64,6 +64,7 @@ body {
 .navigation-2 {
     display: flex;
     gap: 3rem;
+    position: relative;
 }
 
 .fa-solid {
@@ -93,6 +94,28 @@ body {
 
 .mobileMenuLanguageHide {
     display: none;
+}
+
+.mobileMenuBarsOpen {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    top: 6rem;
+    right: 3.6rem;
+    background-color: var(--yellow-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 15px var(--blue-color);
+}
+
+.mobileMenuBarsItems {
+    font-family: var(--orbitron);    
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: var(--blue-color);
+    width: 20rem;
 }
 
 /* home */

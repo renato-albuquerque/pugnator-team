@@ -14,7 +14,7 @@
 
 @media (min-width: 375px) {
     .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
-        width: 33.5rem;
+        width: 33.5rem; 
     }
 }
 
