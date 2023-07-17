@@ -131,7 +131,7 @@ body {
 }
 
 .imgLogo {
-    width: 29rem;
+    width: 27rem;
     display: block;
     margin: 0 auto;
     margin-top: 3rem;
@@ -227,7 +227,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.wrapPugnatorAreas {
+/* .wrapPugnatorAreas {
     margin-bottom: 4rem;
 }
 
@@ -237,7 +237,7 @@ body {
     font-family: var(--orbitron);
     text-align: center;
     line-height: 3.8rem;
-}
+} */
 
 .imageMembersPerArea {
     width: 30rem;
