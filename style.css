@@ -96,6 +96,10 @@ body {
     display: none;
 }
 
+.tabletLaptopMenu {
+    display: none;
+}
+
 .mobileMenuBarsOpen {
     position: absolute;
     display: flex;

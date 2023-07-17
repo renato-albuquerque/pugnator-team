@@ -53,7 +53,6 @@
 
     .textLogo {
         font-size: 2.5rem;
-        
     }
     
     .navigation-2 {
@@ -109,10 +108,49 @@
 
     .textContacts {
         font-size: 2.4rem;
-        
     }
     
     .fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
         font-size: 3.4rem;  
+    }
+}
+
+/* laptop, 1024px */
+
+@media (min-width: 1024px) {
+    .header, .home, .about, .members, .media, .services, .partners, .contacts, .footer-2 {
+        width: 98.4rem;
+    }
+
+    /* header */
+
+    #hideFa-barsFa-share {   /* hide hamburger menu and share button. */
+        display: none;
+    }
+
+    .wrapNavigation-2TabletLaptopMenu {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 11rem;
+    }
+
+    .tabletLaptopMenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .tabletLaptopMenuItem {
+        color: var(--white-color);
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: var(--orbitron);
+    }
+
+    .tabletLaptopMenuItem:hover {
+        color: var(--yellow-color);
+        text-decoration: underline;
+        transition: all .3s;
     }
 }

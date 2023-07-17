@@ -26,25 +26,41 @@
             <nav class="navigation-1">
                 <a class="textLogo" href="#">PUGNATOR</a>
             </nav>
-            <nav class="navigation-2">
-                <i class="fa-solid fa-bars" onclick="openMenuHamburger()"></i>
-                <div class="mobileMenuBarsHide">
-                    <a class="mobileMenuBarsItems" href="#home" onclick="hideMenuHamburger()">Home</a>
-                    <a class="mobileMenuBarsItems" href="#about" onclick="hideMenuHamburger()">Sobre</a>
-                    <a class="mobileMenuBarsItems" href="#members" onclick="hideMenuHamburger()">Membros</a>
-                    <a class="mobileMenuBarsItems" href="#media" onclick="hideMenuHamburger()">Pugnator na Mídia</a>
-                    <a class="mobileMenuBarsItems" href="#partners" onclick="hideMenuHamburger()">Parceiros</a>
-                    <a class="mobileMenuBarsItems" href="#services" onclick="hideMenuHamburger()">Serviços</a>
-                    <a class="mobileMenuBarsItems" href="#contacts" onclick="hideMenuHamburger()">Contatos</a>
-                </div>
-                <i class="fa-solid fa-flag-checkered"></i>
-                <div class="mobileMenuLanguageHide">
-                    <a class="mobileMenuLanguageItems" href="#">EN</a>
-                    <a class="mobileMenuLanguageItems" href="#">PT</a>
-                </div>
-                <i class="fa-solid fa-share-nodes fa-fade" onclick="share()"></i>
-            </nav>
-            <!-- tablet/laptop menu (hide) -->
+            
+            <div class="wrapNavigation-2TabletLaptopMenu"> <!-- Use this class in laptop version. -->
+                <nav class="navigation-2">
+                    <i class="fa-solid fa-bars" id="hideFa-barsFa-share" onclick="openMenuHamburger()"></i>
+                
+                    <div class="mobileMenuBarsHide">
+                        <a class="mobileMenuBarsItems" href="#home" onclick="hideMenuHamburger()">Home</a>
+                        <a class="mobileMenuBarsItems" href="#about" onclick="hideMenuHamburger()">Sobre</a>
+                        <a class="mobileMenuBarsItems" href="#members" onclick="hideMenuHamburger()">Membros</a>
+                        <a class="mobileMenuBarsItems" href="#media" onclick="hideMenuHamburger()">Pugnator na Mídia</a>
+                        <a class="mobileMenuBarsItems" href="#partners" onclick="hideMenuHamburger()">Parceiros</a>
+                        <a class="mobileMenuBarsItems" href="#services" onclick="hideMenuHamburger()">Serviços</a>
+                        <a class="mobileMenuBarsItems" href="#contacts" onclick="hideMenuHamburger()">Contatos</a>
+                    </div>
+                    <i class="fa-solid fa-flag-checkered"></i>
+                
+                    <div class="mobileMenuLanguageHide">
+                        <a class="mobileMenuLanguageItems" href="#">EN</a>
+                        <a class="mobileMenuLanguageItems" href="#">PT</a>
+                    </div>
+                
+                    <i class="fa-solid fa-share-nodes fa-fade" id="hideFa-barsFa-share" onclick="share()"></i>
+                </nav>
+                <!-- tablet/laptop menu (hide) -->
+                <nav class="tabletLaptopMenu">
+                    <a class="tabletLaptopMenuItem" href="#home">Home</a>
+                    <a class="tabletLaptopMenuItem" href="#about">Sobre</a>
+                    <a class="tabletLaptopMenuItem" href="#members">Membros</a>
+                    <a class="tabletLaptopMenuItem" href="#media">Mídia</a>
+                    <a class="tabletLaptopMenuItem" href="#services">Serviços</a>
+                    <a class="tabletLaptopMenuItem" href="#partners">Parceiros</a>
+                    <a class="tabletLaptopMenuItem" href="#contacts">Contatos</a>
+                </nav>
+            </div>
+            
         </header>
     </div>
 
