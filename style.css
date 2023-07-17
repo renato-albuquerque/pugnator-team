@@ -508,3 +508,12 @@ body {
     color: var(--white-color);
     transition: all .3s;
 }
+
+.fa-arrow-up-from-bracket {
+    position: fixed;
+    color:var(--yellow-color);
+    font-size: 3rem;
+    right: 3rem;
+    bottom: 5rem;
+
+}

@@ -4,13 +4,6 @@ const menuHamburger = document.querySelector(".fa-bars")
 const mobileMenuBarsHide = document.querySelector(".mobileMenuBarsHide")
 const mobileMenuBarsOpen = document.querySelector(".mobileMenuBarsOpen")
 
-
-
-
-
-
-
-
 /* functions */
 
 function openMenuHamburger() {
