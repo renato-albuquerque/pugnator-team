@@ -304,6 +304,7 @@ body {
 .wrapAllArticle {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 6rem;
 }
 
@@ -340,6 +341,12 @@ body {
 
 .readWatchFullArticle-a {
     color: var(--blue-color);
+}
+
+.readWatchFullArticle:hover {
+    color: var(--blue-color);
+    background-color: var(--yellow-color);
+    transition: all .3s;
 }
 
 /* services */
@@ -462,8 +469,7 @@ body {
 }
 
 .fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-youtube:hover {
-    color: var(--yellow-color);
-    font-size: 3rem;  
+    color: var(--yellow-color); 
 }
 
 /* footer */

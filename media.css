@@ -184,4 +184,16 @@
     .imageMembersPerArea {
         width: 60rem;
     }
+
+    /* partners */
+
+    .logoPartners {
+        width: 14rem;
+    }
+
+    /* footer */
+
+    .footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook {
+        font-size: 2rem;
+    }
 }
