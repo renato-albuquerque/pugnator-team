@@ -153,4 +153,35 @@
         text-decoration: underline;
         transition: all .3s;
     }
+
+    /* home */
+
+    .home {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        position: relative;
+    }
+
+    .wrapHomeRightSide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapHomeLeftSide {
+        width: 35rem;
+    }
+
+    .imageAllMembersTogether {
+        position: absolute; /* Way to center image. */
+        top: 7rem;
+        right: -2rem;
+    }
+
+    /* members */
+
+    .imageMembersPerArea {
+        width: 60rem;
+    }
 }
