@@ -197,6 +197,15 @@
         width: 14rem;
     }
 
+    /* contacts */
+
+    .wrapAllTextContacts {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 15rem;
+    }
+
     /* footer */
 
     .footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook {

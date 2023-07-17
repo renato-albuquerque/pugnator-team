@@ -142,15 +142,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
-.iconsHome .fa-whatsapp, .iconsHome .fa-envelope, .iconsHome .fa-instagram, .iconsHome .fa-youtube, .iconsHome .fa-facebook {
-    font-size: 4rem;
+.iconsHome .fa-whatsapp, .iconsHome .fa-envelope, .iconsHome .fa-instagram, .iconsHome .fa-youtube, .iconsHome .fa-facebook, .iconsHome .fa-tiktok, .iconsHome .fa-linkedin-in {
+    font-size: 3rem;
     color: var(--blue-color);
 }
 
-.iconsHome .fa-whatsapp:hover, .iconsHome .fa-envelope:hover, .iconsHome .fa-instagram:hover, .iconsHome .fa-youtube:hover, .iconsHome .fa-facebook:hover {
+.iconsHome .fa-whatsapp:hover, .iconsHome .fa-envelope:hover, .iconsHome .fa-instagram:hover, .iconsHome .fa-youtube:hover, .iconsHome .fa-facebook:hover, .iconsHome .fa-tiktok:hover, .iconsHome .fa-linkedin-in:hover {
     color: var(--yellow-color);
     transition: all .3s;
 }
@@ -463,12 +463,12 @@ body {
     transition: all .3s;
 }
 
-.fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
+.fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube, .fa-tiktok, .fa-linkedin {
     color: var(--blue-color);
     font-size: 3rem;  
 }
 
-.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-youtube:hover {
+.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-square-instagram:hover, .fa-square-facebook:hover, .fa-square-youtube:hover, .fa-tiktok:hover, .fa-linkedin:hover {
     color: var(--yellow-color); 
 }
 
@@ -486,12 +486,12 @@ body {
     padding-top: 3rem;
 }  
 
-.footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook {
+.footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook, .footer-1 .fa-tiktok, .footer-1 .fa-linkedin-in {
     font-size: 1.8rem;
     color: var(--yellow-color);
 }
 
-.footer-1 .fa-whatsapp:hover, .footer-1 .fa-envelope:hover, .footer-1 .fa-instagram:hover, .footer-1 .fa-youtube:hover, .footer-1 .fa-facebook:hover {
+.footer-1 .fa-whatsapp:hover, .footer-1 .fa-envelope:hover, .footer-1 .fa-instagram:hover, .footer-1 .fa-youtube:hover, .footer-1 .fa-facebook:hover, .footer-1 .fa-tiktok:hover, .footer-1 .fa-linkedin-in:hover {
     color: var(--white-color);
     transition: all .3s;
 }
