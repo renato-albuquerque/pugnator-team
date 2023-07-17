@@ -131,7 +131,7 @@ body {
 }
 
 .imgLogo {
-    width: 27rem;
+    width: 25rem;
     display: block;
     margin: 0 auto;
     margin-top: 3rem;
@@ -393,6 +393,12 @@ body {
     color: var(--yellow-color);
     text-decoration: underline;
     transition: all .3s;
+}
+
+.textServices-a span {
+    color: var(--yellow-color);
+    font-family: var(--orbitron);
+    font-size: 1.5rem;
 }
 
 /* partners */
