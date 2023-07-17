@@ -113,6 +113,12 @@
     .fa-square-whatsapp, .fa-square-envelope, .fa-square-instagram, .fa-square-facebook, .fa-square-youtube {
         font-size: 3.4rem;  
     }
+
+    /* footer */
+
+    .fa-arrow-up-from-bracket {
+        font-size: 4rem;
+    }  
 }
 
 /* laptop, 1024px */
@@ -195,5 +201,18 @@
 
     .footer-1 .fa-whatsapp, .footer-1 .fa-envelope, .footer-1 .fa-instagram, .footer-1 .fa-youtube, .footer-1 .fa-facebook {
         font-size: 2rem;
+    }
+
+    .fa-arrow-up-from-bracket {
+        font-size: 4rem;
+    }    
+}
+
+@media (min-width: 1300px) {
+    /* footer */
+    
+    .fa-arrow-up-from-bracket {
+        font-size: 4rem;
+        right: 15rem;
     }
 }
