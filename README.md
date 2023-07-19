@@ -30,11 +30,9 @@ Users should be able to:
 ![screenshot](/assets/all-screens-responsive-viewer.jpg)
 
 #### Mobile
-![screenshot](/assets/screencapture-pugnator-escuderia-mobile1.jpg)
-![screenshot](/assets/screencapture-pugnator-escuderia-mobile2.jpg)
+![screenshot](/assets/screencapture-pugnator-escuderia-mobile2.png)
 
 #### Desktop
-![screenshot](/assets/screencapture-pugnator-escuderia-desktop1.jpg)
 ![screenshot](/assets/screencapture-pugnator-escuderia-desktop2.png)
 
 ### Links
