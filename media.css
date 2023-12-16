@@ -160,6 +160,12 @@
         transition: all .3s;
     }
 
+    .mobileMenuLanguageOpen {
+        top: 6rem;
+        right: -0.5rem;
+        z-index: 1; /* Not to overlap the image. */
+    }
+
     /* home */
 
     .home {

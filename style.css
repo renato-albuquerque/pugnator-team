@@ -122,6 +122,27 @@ body {
     width: 20rem;
 }
 
+.mobileMenuLanguageOpen {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    top: 6rem;
+    right: 3.6rem;
+    background-color: var(--yellow-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 15px var(--blue-color);
+}
+
+.mobileMenuLanguageItems {
+    font-family: var(--orbitron);    
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: var(--blue-color);
+}
+
 /* home */
 
 .home {
