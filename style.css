@@ -453,6 +453,10 @@ body {
     width: 10rem;
 }
 
+.logoPartners-rma {
+    border-radius: 1rem;
+}
+
 /* contacts */
 
 .contacts {
