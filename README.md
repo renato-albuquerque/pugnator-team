@@ -1,8 +1,10 @@
-# Website Scuderia PUGNATOR
+# Website Scuderia PUGNATOR | Season 2024
 
-*** Season 2024, new team, project will be updated | IN PROGRESS ***
+Website for Pugnator Scuderia updated for the 2024 season. New Team in action!
 
-Freelance project developed for the Scuderia PUGNATOR. It participates in a competition at an international level, which is managed by the FIA (International Automobile Federation) and applied in Maranhão by the SESI education network. PUGNATOR represents the SESI/FIEMA System within the competition. Project "Mobile First" developed in July/2023.
+"Mobile First" project, responsive, developed with HTML, CSS and JavaScript. Updated in December/2023.
+
+Freelance project developed for the Scuderia PUGNATOR. It participates in a competition at an international level, which is managed by the FIA (International Automobile Federation) and applied in Maranhão by the SESI education network. PUGNATOR represents the SESI/FIEMA System within the competition.
 
 ## Table of contents
 
